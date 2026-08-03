@@ -1,0 +1,17 @@
+img{ 
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 25vw; 
+}
+h1{
+    text-align: center;
+}
+
+nav, a, span{
+  background-color: var(--tile-background);
+  color: var(--emphatic-text);
+}
+#contact{
+  float: right;
+}
