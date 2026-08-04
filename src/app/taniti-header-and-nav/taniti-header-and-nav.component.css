@@ -2,16 +2,25 @@ img{
   display: block; 
   margin-left: auto; 
   margin-right: auto; 
-  width: 25vw; 
+  width: 5vw;
+  padding: 1vw;
 }
 h1{
     text-align: center;
 }
 
-nav, a, span{
-  background-color: var(--tile-background);
-  color: var(--emphatic-text);
+nav, .nav-link, span{
+  background-color: silver;
+  color: black;
+  width: 97vw;
+  padding: 1vw;
+  border-radius: 2vw;
 }
-#contact{
+a:hover{
+  background-color: black;
+  color: white;
+}
+#contactUsS{
   float: right;
+  text-align: right;
 }
