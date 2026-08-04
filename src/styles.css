@@ -8,3 +8,26 @@ p {
     justify-content: space-around;
 
 }
+.trifold{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 30vw;
+    height: 50vh;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    color: black;
+}
+.article{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+}
+h1{
+    text-align: center;
+}
+.sideImage{
+    width: 30vw;
+    border-radius: 10px;
+}

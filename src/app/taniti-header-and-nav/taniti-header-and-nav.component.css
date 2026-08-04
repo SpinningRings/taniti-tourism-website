@@ -5,9 +5,6 @@ img{
   width: 5vw;
   padding: 1vw;
 }
-h1{
-    text-align: center;
-}
 
 nav, .nav-link, span{
   background-color: silver;
@@ -16,10 +13,20 @@ nav, .nav-link, span{
   padding: 1vw;
   border-radius: 2vw;
 }
+
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3vh;
+}
+
 a:hover{
   background-color: black;
   color: white;
 }
+
 #contactUsS{
   float: right;
   text-align: right;
