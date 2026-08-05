@@ -12,6 +12,7 @@ nav, .nav-link, span{
   width: 97vw;
   padding: 1vw;
   border-radius: 2vw;
+  text-align: center;
 }
 
 nav{
